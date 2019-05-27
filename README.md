@@ -12,6 +12,8 @@ The UI utilizes ReactJS, Typescript, Redux, Redux Thunks (for async processing o
 
 As I have never used Typescript before, I thought this project presented the perfect opportunity to learn Typescript, along with React Hooks (as seen in the search_bar component to keep internal state). After using it for such a short time, I immediately saw the benefits in autocompletion, enhanced overall quality, and improved understandability in what to expect from method calls!
 
+![Screenshot](https://i.imgur.com/UuzjdYT.jpg)
+
 ## Getting Started
 
 To run this app locally:
