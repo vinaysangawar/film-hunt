@@ -1,5 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # Film Hunt
 
 ## Introduction
@@ -12,9 +10,14 @@ The UI utilizes ReactJS, Typescript, Redux, Redux Thunks (for async processing o
 
 As I have never used Typescript before, I thought this project presented the perfect opportunity to learn Typescript, along with React Hooks (as seen in the search_bar component to keep internal state). After using it for such a short time, I immediately saw the benefits in autocompletion, enhanced overall quality, and improved understandability in what to expect from method calls!
 
+Areas of Improvement:
+There are a few things that I would like to add just as a loader for API calls and some better error handling on the server side. I would also like to increase code coverage time permitting, but an example of how one could unit test these components can be found in the "header" and "movie_detail_modal" components.
+
 ![Screenshot](https://i.imgur.com/UuzjdYT.jpg)
 
 ## Getting Started
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 To run this app locally:
 
@@ -38,7 +41,7 @@ To run this app locally:
 
 In the project directory, you can run:
 
-### `npm server`
+### `npm run server`
 
 Runs the app in the "server" mode. This replicates how the webapp will be running on a webserver, running from the build folder.<br>
 This script will compile everything needed to the 'build' folder which can be deployed to a server.
