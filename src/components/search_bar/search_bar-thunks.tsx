@@ -12,7 +12,7 @@ export const thunkSearchMovie = (
 ): ThunkAction<void, AppState, null, Action<string>> => async dispatch => {
     try {
         const searchResults = await axios.get(`/searchMovie?movie=${searchString}`);
-        if (searchResults.data.length > 1) {
+        if (searchResults.data.length >= 1) {
             dispatch(searchMovieFulfilled(searchResults.data))
         } else {
             toast.warn("No results found!");
