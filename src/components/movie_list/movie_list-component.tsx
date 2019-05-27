@@ -15,7 +15,7 @@ const MovieList: React.FC<MovieListProps> = (props) => {
 
     return (
         <div>
-            {(movieItemRenderer.length > 1) ?
+            {(movieItemRenderer.length >= 1) ?
                 <div className="movie_list">
                     <Row>
                         <p>Select a movie to view details!</p>
