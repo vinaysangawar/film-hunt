@@ -25,13 +25,15 @@ To run this app locally:
 
 ```git clone https://github.com/vinaysangawar/film-hunt.git```
 
-2. Run the following command at the project location - Assuming the latest (LTS) version of node js is already installed in the system.
+2. Change directories to project ```cd film-hunt```
+
+3. Run the following command at the project location - Assuming the latest (LTS) version of node js is already installed in the system.
 
 ```npm install```
 
-3. Update OMDB_API_KEY value in the .env file in the root of the project with your OMDB key (replacing '12345678'). Don't forget to save the file.
+4. Update OMDB_API_KEY value in the .env file in the root of the project with your OMDB key (replacing '12345678'). Don't forget to save the file.
 
-4. Run the server locally, it will compile the UI and run a local instance of NodeJS.
+5. Run the server locally, it will compile the UI and run a local instance of NodeJS.
 
 ```npm run server```
 
