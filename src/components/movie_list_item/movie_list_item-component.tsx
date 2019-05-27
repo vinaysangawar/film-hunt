@@ -5,7 +5,7 @@ import defaultImage from '../../media/poster-not-found.png';
 
 interface MovieProps {
     movie: Movie;
-    thunkFetchMovieDetailByIMDBId: any;
+    thunkFetchMovieDetailByIMDBId: Function;
 }
 
 const MovieListItem: React.FC<MovieProps> = ({ movie, thunkFetchMovieDetailByIMDBId }) => {
