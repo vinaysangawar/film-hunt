@@ -8,16 +8,14 @@ const app = express();
 const baseOMDBUrl = process.env.BASE_OMDB_URL;
 const omdbAPIKey = process.env.OMDB_API_KEY;
 
-app.get('/searchMovie', async (req, res, next) => {
+app.get('/searchMovie', async (req, res) => {
   try {
     const response = await axios.get(`${baseOMDBUrl}/?type=movie&apikey=${omdbAPIKey}&s=${req.query.movie}`);
     console.log(response.data);
     res.send(response.data.Search);
-    next();
   } catch (error) {
     console.error(error);
     res.send(error);
-    next();
   }
 });
 
