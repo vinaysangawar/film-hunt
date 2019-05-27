@@ -11,7 +11,7 @@ The UI utilizes ReactJS, Typescript, Redux, Redux Thunks (for async processing o
 As I have never used Typescript before, I thought this project presented the perfect opportunity to learn Typescript, along with React Hooks (as seen in the search_bar component to keep internal state). After using it for such a short time, I immediately saw the benefits in autocompletion, enhanced overall quality, and improved understandability in what to expect from method calls!
 
 Areas of Improvement:
-There are a few things that I would like to add just as a loader for API calls and some better error handling on the server side. I would also like to increase code coverage time permitting, but an example of how one could unit test these components can be found in the "header" and "movie_detail_modal" components.
+There are a few things that I would like to add such as a loader for API calls and some better error handling on the server side. I would also like to increase code coverage time permitting, but an example of how one could unit test these components can be found in the "header" and "movie_detail_modal" components.
 
 ![Screenshot](https://i.imgur.com/UuzjdYT.jpg)
 
