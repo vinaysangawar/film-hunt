@@ -25,7 +25,9 @@ To run this app locally:
 
 ```git clone https://github.com/vinaysangawar/film-hunt.git```
 
-2. Change directories to project ```cd film-hunt```
+2. Change directories to project 
+
+```cd film-hunt```
 
 3. Run the following command at the project location - Assuming the latest (LTS) version of node js is already installed in the system.
 
