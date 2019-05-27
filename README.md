@@ -33,7 +33,10 @@ To run this app locally:
 
 ```npm install```
 
-4. Update OMDB_API_KEY value in the .env file in the root of the project with your OMDB key (replacing '12345678'). Don't forget to save the file.
+4. Update OMDB_API_KEY value in the .env file in the root of the project with your OMDB key (replacing '12345678'). THIS FILE MAY BE HIDDEN ON YOUR SYSTEM. If you don't have an editor and don't feel like changing view permissions.
+```Mac: "vi .env" or "nano .env"```
+```Windows: "edit .env"```
+Don't forget to save the file.
 
 5. Run the server locally, it will compile the UI and run a local instance of NodeJS.
 
