@@ -4,7 +4,7 @@
 
 Finally, after a long time waiting, you can search for that movie and get its details!!!
 
-The application gets served up and ran from a NodeJS server. The server is responsible for handling the API of searching and fetching of movies and movie details. The data source is [http://www.omdbapi.com/](http://www.omdbapi.com/). By implementing the server model, one could expand the server to protect the routes via authentication, and the client would not have access to sensitive API keys.
+The application gets served up and ran from a NodeJS/Express server. The server is responsible for handling the API of searching and fetching of movies and movie details. The data source is [http://www.omdbapi.com/](http://www.omdbapi.com/). By implementing the server model, one could expand the server to protect the routes via authentication, and the client would not have access to sensitive API keys.
 
 The UI utilizes ReactJS, Typescript, Redux, Redux Thunks (for async processing of actions), and Bootstrap (for styling and responsiveness). 
 
@@ -38,7 +38,7 @@ To run this app locally:
 ```Windows: "edit .env"```
 Don't forget to save the file.
 
-5. Run the server locally, it will compile the UI and run a local instance of NodeJS.
+5. Run the server locally, it will compile the UI and run a local instance of server.
 
 ```npm run server```
 
