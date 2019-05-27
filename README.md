@@ -42,7 +42,7 @@ Don't forget to save the file.
 
 ```npm run server```
 
-5. Navigate to ```http://localhost:3001```
+6. Navigate to ```http://localhost:3001```
 
 ## Available Scripts
 
